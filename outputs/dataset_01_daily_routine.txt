@@ -1,0 +1,20 @@
+1 / la mañana / the morning
+1 / el despertador / the alarm clock
+1 / la ducha / the shower
+1 / el desayuno / the breakfast
+1 / el trabajo / the work
+1 / la llave / the key
+2 / despertarse / to wake up / present: me despierto te despiertas se despierta nos despertamos os despertáis se despiertan; preterite: me desperté te despertaste se despertó nos despertamos os despertasteis se despertaron; future: me despertaré te despertarás se despertará nos despertaremos os despertaréis se despertarán
+2 / levantarse / to get up / present: me levanto te levantas se levanta nos levantamos os levantáis se levantan; preterite: me levanté te levantaste se levantó nos levantamos os levantasteis se levantaron; future: me levantaré te levantarás se levantará nos levantaremos os levantaréis se levantarán
+2 / ducharse / to shower / present: me ducho te duchas se ducha nos duchamos os ducháis se duchan; preterite: me duché te duchaste se duchó nos duchamos os duchasteis se ducharon; future: me ducharé te ducharás se duchará nos ducharemos os ducharéis se ducharán
+2 / desayunar / to eat breakfast / present: desayuno desayunas desayuna desayunamos desayunáis desayunan; preterite: desayuné desayunaste desayunó desayunamos desayunasteis desayunaron; future: desayunaré desayunarás desayunará desayunaremos desayunaréis desayunarán
+2 / salir / to leave / present: salgo sales sale salimos salís salen; preterite: salí saliste salió salimos salisteis salieron; future: saldré saldrás saldrá saldremos saldréis saldrán
+2 / llegar / to arrive / present: llego llegas llega llegamos llegáis llegan; preterite: llegué llegaste llegó llegamos llegasteis llegaron; future: llegaré llegarás llegará llegaremos llegaréis llegarán
+4 / temprano / early
+4 / tarde / late
+4 / rápidamente / quickly
+4 / tranquilamente / calmly
+5 / tengo prisa / I am in a hurry
+5 / hasta luego / see you later
+5 / todos los días / every day
+5 / antes de salir / before leaving

@@ -1,0 +1,26 @@
+Vocab Trainer 101
+
+This is a frontend-only app. Your vocabulary data is saved in the browser's IndexedDB on the device where you use it.
+
+How to run:
+
+1. Unzip the file.
+2. Open Terminal in the unzipped folder.
+3. Run:
+
+   python3 -m http.server 4173
+
+4. Open:
+
+   http://localhost:4173
+
+Import files must start with a language header, for example:
+
+? / es / en
+1 / la casa / house
+2 / hablar / to speak / present: hablo hablas habla hablamos habláis hablan; future: hablaré hablarás hablará hablaremos hablaréis hablarán; preterite: hablé hablaste habló hablamos hablasteis hablaron
+
+Notes:
+
+- Double-clicking index.html may not work in every browser because modern browsers restrict local module files.
+- PDF import needs internet access because the PDF parser is loaded from a CDN.

@@ -1,0 +1,34 @@
+? / es / en
+1 / la pantalla / the screen
+1 / el teclado / the keyboard
+1 / el ratón / the mouse
+1 / la contraseña / the password
+1 / el archivo / the file
+1 / la carpeta / the folder
+1 / la llamada / the call
+1 / el mensaje / the message
+1 / la conexión / the connection
+1 / la batería / the battery
+2 / encender / to turn on / present: enciendo enciendes enciende encendemos encendéis encienden; future: encenderé encenderás encenderá encenderemos encenderéis encenderán; preterite: encendí encendiste encendió encendimos encendisteis encendieron
+2 / apagar / to turn off / present: apago apagas apaga apagamos apagáis apagan; future: apagaré apagarás apagará apagaremos apagaréis apagarán; preterite: apagué apagaste apagó apagamos apagasteis apagaron
+2 / descargar / to download / present: descargo descargas descarga descargamos descargáis descargan; future: descargaré descargarás descargará descargaremos descargaréis descargarán; preterite: descargué descargaste descargó descargamos descargasteis descargaron
+2 / guardar / to save / present: guardo guardas guarda guardamos guardáis guardan; future: guardaré guardarás guardará guardaremos guardaréis guardarán; preterite: guardé guardaste guardó guardamos guardasteis guardaron
+2 / buscar / to search / present: busco buscas busca buscamos buscáis buscan; future: buscaré buscarás buscará buscaremos buscaréis buscarán; preterite: busqué buscaste buscó buscamos buscasteis buscaron
+2 / compartir / to share / present: comparto compartes comparte compartimos compartís comparten; future: compartiré compartirás compartirá compartiremos compartiréis compartirán; preterite: compartí compartiste compartió compartimos compartisteis compartieron
+2 / responder / to reply / present: respondo respondes responde respondemos respondéis responden; future: responderé responderás responderá responderemos responderéis responderán; preterite: respondí respondiste respondió respondimos respondisteis respondieron
+2 / reiniciar / to restart / present: reinicio reinicias reinicia reiniciamos reiniciáis reinician; future: reiniciaré reiniciarás reiniciará reiniciaremos reiniciaréis reiniciarán; preterite: reinicié reiniciaste reinició reiniciamos reiniciasteis reiniciaron
+3 / conectado / connected / commonly used with estar
+3 / disponible / available / useful for files, rooms, and people
+3 / seguro / secure / also means safe
+3 / lento / slow / opposite of rápido
+3 / actualizado / updated / used for software and documents
+4 / ahora / now
+4 / pronto / soon
+4 / nuevamente / again
+4 / fácilmente / easily
+5 / no hay señal / there is no signal
+5 / se me olvidó la contraseña / I forgot the password
+5 / ¿puedes enviarlo otra vez? / can you send it again?
+5 / estoy sin batería / my battery is dead
+6 / en línea / online
+6 / fuera de línea / offline

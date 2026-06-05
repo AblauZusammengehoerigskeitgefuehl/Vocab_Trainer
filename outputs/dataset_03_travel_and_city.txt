@@ -1,0 +1,20 @@
+1 / el aeropuerto / the airport
+1 / la estación / the station
+1 / el billete / the ticket
+1 / la maleta / the suitcase
+1 / el mapa / the map
+1 / la calle / the street
+2 / viajar / to travel / present: viajo viajas viaja viajamos viajáis viajan; preterite: viajé viajaste viajó viajamos viajasteis viajaron; future: viajaré viajarás viajará viajaremos viajaréis viajarán
+2 / conducir / to drive / present: conduzco conduces conduce conducimos conducís conducen; preterite: conduje condujiste condujo condujimos condujisteis condujeron; future: conduciré conducirás conducirá conduciremos conduciréis conducirán
+2 / perderse / to get lost / present: me pierdo te pierdes se pierde nos perdemos os perdéis se pierden; preterite: me perdí te perdiste se perdió nos perdimos os perdisteis se perdieron; future: me perderé te perderás se perderá nos perderemos os perderéis se perderán
+2 / encontrar / to find / present: encuentro encuentras encuentra encontramos encontráis encuentran; preterite: encontré encontraste encontró encontramos encontrasteis encontraron; future: encontraré encontrarás encontrará encontraremos encontraréis encontrarán
+2 / esperar / to wait / present: espero esperas espera esperamos esperáis esperan; preterite: esperé esperaste esperó esperamos esperasteis esperaron; future: esperaré esperarás esperará esperaremos esperaréis esperarán
+2 / preguntar / to ask / present: pregunto preguntas pregunta preguntamos preguntáis preguntan; preterite: pregunté preguntaste preguntó preguntamos preguntasteis preguntaron; future: preguntaré preguntarás preguntará preguntaremos preguntaréis preguntarán
+4 / lejos / far
+4 / cerca / near
+4 / directamente / directly
+4 / fácilmente / easily
+5 / dónde está / where is it
+5 / a la derecha / to the right
+5 / a la izquierda / to the left
+5 / necesito ayuda / I need help

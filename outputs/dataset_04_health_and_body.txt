@@ -1,0 +1,20 @@
+1 / la cabeza / the head
+1 / el brazo / the arm
+1 / la pierna / the leg
+1 / el médico / the doctor
+1 / la farmacia / the pharmacy
+1 / el dolor / the pain
+2 / doler / to hurt / present: me duele te duele le duele nos duele os duele les duele; preterite: me dolió te dolió le dolió nos dolió os dolió les dolió; future: me dolerá te dolerá le dolerá nos dolerá os dolerá les dolerá
+2 / enfermarse / to get sick / present: me enfermo te enfermas se enferma nos enfermamos os enfermáis se enferman; preterite: me enfermé te enfermaste se enfermó nos enfermamos os enfermasteis se enfermaron; future: me enfermaré te enfermarás se enfermará nos enfermaremos os enfermaréis se enfermarán
+2 / descansar / to rest / present: descanso descansas descansa descansamos descansáis descansan; preterite: descansé descansaste descansó descansamos descansasteis descansaron; future: descansaré descansarás descansará descansaremos descansaréis descansarán
+2 / respirar / to breathe / present: respiro respiras respira respiramos respiráis respiran; preterite: respiré respiraste respiró respiramos respirasteis respiraron; future: respiraré respirarás respirará respiraremos respiraréis respirarán
+2 / curar / to heal / present: curo curas cura curamos curáis curan; preterite: curé curaste curó curamos curasteis curaron; future: curaré curarás curará curaremos curaréis curarán
+2 / tomar / to take / present: tomo tomas toma tomamos tomáis toman; preterite: tomé tomaste tomó tomamos tomasteis tomaron; future: tomaré tomarás tomará tomaremos tomaréis tomarán
+4 / mal / badly
+4 / bien / well
+4 / lentamente / slowly
+4 / cuidadosamente / carefully
+5 / me duele la cabeza / my head hurts
+5 / necesito un médico / I need a doctor
+5 / tengo fiebre / I have a fever
+5 / que te mejores / get well soon

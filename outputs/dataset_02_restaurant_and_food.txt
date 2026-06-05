@@ -1,0 +1,20 @@
+1 / la mesa / the table
+1 / el menú / the menu
+1 / la cuenta / the bill
+1 / el plato / the plate
+1 / el vaso / the glass
+1 / la propina / the tip
+2 / pedir / to order / present: pido pides pide pedimos pedís piden; preterite: pedí pediste pidió pedimos pedisteis pidieron; future: pediré pedirás pedirá pediremos pediréis pedirán
+2 / traer / to bring / present: traigo traes trae traemos traéis traen; preterite: traje trajiste trajo trajimos trajisteis trajeron; future: traeré traerás traerá traeremos traeréis traerán
+2 / probar / to try / present: pruebo pruebas prueba probamos probáis prueban; preterite: probé probaste probó probamos probasteis probaron; future: probaré probarás probará probaremos probaréis probarán
+2 / beber / to drink / present: bebo bebes bebe bebemos bebéis beben; preterite: bebí bebiste bebió bebimos bebisteis bebieron; future: beberé beberás beberá beberemos beberéis beberán
+2 / pagar / to pay / present: pago pagas paga pagamos pagáis pagan; preterite: pagué pagaste pagó pagamos pagasteis pagaron; future: pagaré pagarás pagará pagaremos pagaréis pagarán
+2 / recomendar / to recommend / present: recomiendo recomiendas recomienda recomendamos recomendáis recomiendan; preterite: recomendé recomendaste recomendó recomendamos recomendasteis recomendaron; future: recomendaré recomendarás recomendará recomendaremos recomendaréis recomendarán
+4 / demasiado / too much
+4 / perfectamente / perfectly
+4 / ahora / now
+4 / amablemente / kindly
+5 / una mesa para dos / a table for two
+5 / la cuenta por favor / the bill please
+5 / sin hielo / without ice
+5 / buen provecho / enjoy your meal
