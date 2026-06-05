@@ -169,9 +169,6 @@ export class VocabularyParser {
     const trimmed = originalText.trim();
     if (!trimmed) return null;
 
-    const ignoredRemoved = trimmed.split("&")[0].trim();
-    const parts = ignoredRemoved.split("/").map((field) => field.trim());
-
     const invalid = (error) => ({
       id: uid("invalid"),
       datasetId,
@@ -181,7 +178,11 @@ export class VocabularyParser {
       editedText: originalText,
     });
 
-    if (parts.length < 3) return invalid("Missing required fields. Use: type / source / target");
+    if (trimmed.includes("&")) return invalid("Ampersands are not supported. Use the details field for a source-language usage sentence.");
+
+    const parts = trimmed.split("/").map((field) => field.trim());
+
+    if (parts.length < 3) return invalid("Missing required fields. Use: type / source / target / usage sentence");
     if (/^[-*•]/.test(trimmed)) return invalid("Bullets are not valid vocabulary lines.");
     if (/^\d+\.\s/.test(trimmed)) return invalid("Numbered lines are not valid. Use a numeric type followed by /.");
 
@@ -191,15 +192,24 @@ export class VocabularyParser {
     }
     if (!parts[1]) return invalid("Missing source field.");
     if (!parts[2]) return invalid("Missing target field.");
+    if (typeCode === 2 && parts.length !== 5) {
+      return invalid("Verb lines must use exactly: 2 / source / target / conjugation / usage sentence");
+    }
+    if (typeCode !== 2 && parts.length !== 4) {
+      return invalid("Non-verb lines must use exactly: type / source / target / usage sentence");
+    }
 
-    const optionalText = parts.slice(3).join(" / ");
+    const conjugationField = parts[3] ?? "";
+    const detailsField = typeCode === 2 ? parts.slice(4).join(" / ") : parts.slice(3).join(" / ");
+    if (typeCode === 2 && !conjugationField) return invalid("Missing verb conjugation field.");
+    if (!detailsField) return invalid("Missing usage sentence field.");
     return createEntry({
       datasetId,
       typeCode,
       spanish: parts[1],
       english: parts[2],
-      details: typeCode === 2 ? "" : optionalText,
-      conjugation: typeCode === 2 ? optionalText : "",
+      details: detailsField,
+      conjugation: typeCode === 2 ? conjugationField : "",
     });
   }
 }

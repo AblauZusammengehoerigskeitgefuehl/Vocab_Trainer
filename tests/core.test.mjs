@@ -14,14 +14,20 @@ import {
 
 const pairs = [{ id: canonicalPairId("es", "en"), sourceLanguage: "es", targetLanguage: "en" }];
 
-test("valid slash-delimited line parses and ignored text is discarded", () => {
+test("valid slash-delimited verb stores conjugation and usage sentence", () => {
   const parser = new VocabularyParser();
-  const result = parser.parseLine("2 / hablar / to speak / present: hablo & regular example", "d1", 1);
+  const result = parser.parseLine("2 / hablar / to speak / present: hablo / hablo español todos los días", "d1", 1);
   assert.equal(result.typeCode, 2);
   assert.equal(result.spanish, "hablar");
   assert.equal(result.english, "to speak");
-  assert.equal(result.details, undefined);
+  assert.equal(result.details, "hablo español todos los días");
   assert.deepEqual(result.conjugation, { raw: "present: hablo" });
+});
+
+test("ampersand import notes are invalid", () => {
+  const parser = new VocabularyParser();
+  const result = parser.parseLine("1 / la casa / house & example: mi casa es pequeña", "d1", 1);
+  assert.match(result.error, /Ampersands are not supported/);
 });
 
 test("invalid lines are returned with reasons", () => {
@@ -30,6 +36,14 @@ test("invalid lines are returned with reasons", () => {
   assert.equal(result.entries.length, 0);
   assert.equal(result.invalidLines.length, 3);
   assert.match(result.invalidLines[1].error, /Invalid type/);
+});
+
+test("imports require usage sentence details", () => {
+  const parser = new VocabularyParser();
+  const noun = parser.parseLine("1 / la casa / house", "d1", 1);
+  const verb = parser.parseLine("2 / hablar / to speak / present: hablo", "d1", 2);
+  assert.match(noun.error, /Non-verb lines must use exactly/);
+  assert.match(verb.error, /Verb lines must use exactly/);
 });
 
 test("missing language header blocks imports", () => {
@@ -42,7 +56,7 @@ test("missing language header blocks imports", () => {
 
 test("language header attaches pair and direction metadata", () => {
   const parser = new VocabularyParser();
-  const result = parser.parseText("? / es / en\n1 / casa / house", "d1", { languagePairs: pairs });
+  const result = parser.parseText("? / es / en\n1 / casa / house / mi casa es pequeña", "d1", { languagePairs: pairs });
   assert.equal(result.invalidLines.length, 0);
   assert.equal(result.entries[0].languagePairId, "en-es");
   assert.equal(result.entries[0].sourceLanguage, "es");
